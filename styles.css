@@ -185,3 +185,34 @@ footer {
   .hero-card { min-height: 320px; }
   .skull { font-size: 6rem; }
 }
+
+.coming-soon {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.coming-soon h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.tagline {
+    font-weight: bold;
+    color: #ff7bac;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+
+.opening {
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
