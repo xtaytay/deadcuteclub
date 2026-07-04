@@ -221,6 +221,7 @@ h2 {
   font-weight: 800;
   margin-top: 20px !important;
 }
+
 /* JOIN THE CLUB*/
 .join-club {
   max-width: 850px;
@@ -232,6 +233,7 @@ h2 {
   border: 3px solid var(--dusty-pink);
   border-radius: 32px;
   box-shadow: 10px 10px 0 var(--dusty-pink);
+  padding: 80px 7vw;
 }
 
 .join-club h2 {
