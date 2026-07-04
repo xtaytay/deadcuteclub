@@ -250,8 +250,8 @@ h2 {
   line-height: 1.7;
 }
 
-.join-club .eyebrow {
-  color: var(--dusty-pink);
+.join-club p.eyebrow {
+  color: var(--dusty-pink) !important;
 }
 
 /* ABOUT */
