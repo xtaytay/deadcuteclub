@@ -57,16 +57,14 @@ nav a {
 nav a:hover { color: var(--cherry-red); }
 
 .hero {
-  position: relative;
-  width: min(92vw, var(--max-width));
-  min-height: calc(100vh - 82px);
-  margin: 0 auto;
-  padding: clamp(70px, 9vw, 130px) 0;
+  min-height: 78vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  gap: 28px;
   text-align: center;
+  padding: 90px 7vw 70px;
 }
 
 .tiny-note,
@@ -80,16 +78,31 @@ nav a:hover { color: var(--cherry-red); }
 }
 
 .hero h1 {
-  margin: 0;
   font-family: 'Cormorant Garamond', serif;
-  font-size: clamp(4.4rem, 12vw, 11rem);
-  line-height: 0.82;
+  font-size: clamp(4rem, 9vw, 8rem);
+  line-height: 0.95;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  letter-spacing: 0.045em;
-  font-weight: 700;
+  max-width: 900px;
 }
 
 .hero h1 span { display: block; }
+
+.hero .intro,
+.hero p {
+  max-width: 620px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.hero .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
 
 .strapline {
   margin: 28px 0 0;
