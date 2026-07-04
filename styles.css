@@ -249,6 +249,10 @@ h2 {
   line-height: 1.7;
 }
 
+.join-club .button {
+    margin-bottom: 15px;
+}
+
 .join-club .eyebrow {
   color: var(--dusty-pink);
 }
