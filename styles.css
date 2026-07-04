@@ -243,6 +243,12 @@ h2 {
   font-size: 1rem !important;
 }
 
+.dark-card .eyebrow {
+    color: var(--dusty-pink) !important;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
 .story-section {
   display: grid;
   grid-template-columns: 0.95fr 1.05fr;
