@@ -137,8 +137,9 @@ h2 {
 }
 
 .secondary {
-  background: var(--warm-cream);
+  background: var(--dusty-pink);
   color: var(--dead-black);
+  margin: 0 auto 22px;
 }
 
 /* HERO CARD */
