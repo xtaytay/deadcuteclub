@@ -269,6 +269,10 @@ h2 {
   border: 2px solid var(--dusty-pink);
 }
 
+.social-section h2 {
+  overflow-wrap:anywhere;
+}
+
 footer {
   margin-top: 80px;
   padding: 34px 7vw;
