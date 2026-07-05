@@ -42,14 +42,14 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 28px;
-  padding: 18px clamp(22px, 5vw, 72px);
+  padding: 12px clamp(22px, 5vw, 72px);
   background: rgba(250, 247, 242, 0.94);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--dusty-pink);
 }
 
 .brand-logo img {
-  width: clamp(210px, 24vw, 360px);
+  width: clamp(160px, 18vw, 260px);
   height: auto;
   display: block;
 }
