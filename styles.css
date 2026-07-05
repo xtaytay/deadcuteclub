@@ -207,8 +207,8 @@ h1 span {
 }
 
 .hero .button {
-  border-color: var(--warm-cream);
-  box-shadow: 5px 5px 0 var(--warm-cream);
+  border-color: var(--dead-black);
+  box-shadow: 5px 5px 0 var(--dead-black);
 }
 
 .button:hover {
