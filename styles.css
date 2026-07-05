@@ -158,10 +158,11 @@ h1 span {
 }
 
 .hero-logo {
-  width: min(520px, 90vw);
-  height: auto;
-  margin: 0 auto 24px;
-  display: block;
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    display: block;
+    margin: 0 auto 30px;
 }
 
 .hero-mascot {
@@ -171,9 +172,12 @@ h1 span {
 }
 
 .hero-mascot img {
-  width: min(430px, 92%);
-  height: auto;
-  filter: drop-shadow(0 18px 24px rgba(0,0,0,.28));
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(0 18px 24px rgba(0,0,0,.28));
 }
 
 /* Buttons */
@@ -365,8 +369,9 @@ h2 {
 }
 
 .story-note img {
-  width: min(260px, 75%);
-  height: auto;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
 }
 
 /* Footer */
