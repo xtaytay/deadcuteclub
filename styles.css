@@ -270,7 +270,12 @@ h2 {
 }
 
 .social-section h2 {
-  overflow-wrap:anywhere;
+  .social-section h2 {
+    font-size: clamp(2.2rem, 8.5vw, 3rem);
+    line-height: 1.1;
+    word-break: normal;
+    overflow-wrap: normal;
+    white-space: nowrap;
 }
 
 footer {
