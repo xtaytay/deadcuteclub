@@ -206,15 +206,23 @@ h1 span {
   transition: transform .18s ease, box-shadow .18s ease;
 }
 
+/* Default (light sections) */
+.button:hover {
+    transform: translate(3px, 3px);
+    box-shadow: 2px 2px 0 var(--dead-black);
+}
+
+/* Dark sections */
 .hero .button,
 .dark-card .button {
-  border-color: var(--warm-cream);
-  box-shadow: 5px 5px 0 var(--warm-cream);
+    border-color: var(--warm-cream);
+    box-shadow: 5px 5px 0 var(--warm-cream);
 }
 
 .hero .button:hover,
 .dark-card .button:hover {
-  box-shadow: 2px 2px 0 var(--warm-cream);
+    transform: translate(3px, 3px);
+    box-shadow: 2px 2px 0 var(--warm-cream);
 }
 
 .primary {
@@ -475,45 +483,72 @@ footer .handwritten {
     font-size: clamp(2rem, 10vw, 3rem) !important;
   }
 
-  /* final desktop tightening */
+ /* FINAL OVERRIDES */
+
 .site-header {
-  padding: 8px clamp(22px, 5vw, 72px);
-  min-height: 90px;
+  padding-top: 6px !important;
+  padding-bottom: 6px !important;
+  min-height: 72px !important;
 }
 
 .brand-logo img {
-  width: clamp(230px, 22vw, 340px);
+  width: clamp(260px, 24vw, 380px) !important;
 }
 
 .hero {
-  min-height: 62vh;
-  padding: 35px clamp(24px, 6vw, 90px) 55px;
-  gap: clamp(24px, 4vw, 55px);
+  min-height: 58vh !important;
+  padding-top: 28px !important;
+  padding-bottom: 45px !important;
+  gap: 28px !important;
 }
 
 .hero-logo {
-  max-width: 320px;
-  margin-bottom: 20px;
-}
-
-.hero-copy {
-  max-width: 620px;
+  max-width: 300px !important;
+  margin-bottom: 14px !important;
 }
 
 .hero-mascot img {
-  max-width: 260px;
+  max-width: 240px !important;
 }
 
-.strapline {
-  margin: 20px 0 18px;
+/* Button hover fix */
+.button:hover {
+  transform: translate(3px, 3px) !important;
+  box-shadow: 2px 2px 0 var(--dead-black) !important;
 }
 
-.hero-intro {
-  margin-bottom: 10px;
+.hero .button:hover,
+.dark-card .button:hover {
+  box-shadow: 2px 2px 0 var(--warm-cream) !important;
 }
 
-.buttons {
-  margin-top: 22px;
+  @media (max-width: 860px) {
+  .site-header {
+    padding: 14px 20px !important;
+    min-height: auto !important;
+  }
+
+  .brand-logo img {
+    width: min(300px, 86vw) !important;
+  }
+
+  .hero {
+    min-height: auto !important;
+    padding: 38px 22px 70px !important;
+    gap: 22px !important;
+  }
+
+  .hero-logo {
+    max-width: 260px !important;
+  }
+
+  .hero-mascot img {
+    max-width: 220px !important;
+  }
+
+  .button:hover {
+    transform: none !important;
+  }
 }
   
 }
