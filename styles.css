@@ -212,9 +212,9 @@ h1 span {
   box-shadow: 5px 5px 0 var(--warm-cream);
 }
 
-.button:hover {
-  transform: translate(3px, 3px);
-  box-shadow: 2px 2px 0 currentColor;
+.hero .button:hover,
+.dark-card .button:hover {
+  box-shadow: 2px 2px 0 var(--warm-cream);
 }
 
 .primary {
