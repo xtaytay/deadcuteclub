@@ -550,5 +550,7 @@ footer .handwritten {
     transform: none !important;
   }
 }
-  
+  body {
+  outline: 10px solid red !important;
+}
 }
