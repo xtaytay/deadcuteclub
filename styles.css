@@ -82,7 +82,7 @@ nav a:hover {
   align-items: center;
   gap: clamp(40px, 7vw, 90px);
   min-height: 86vh;
-  padding: clamp(70px, 8vw, 120px) clamp(24px, 6vw, 90px);
+  padding: clamp(40px, 5vw, 70px) clamp(24px, 6vw, 90px) clamp(55px, 6vw, 80px);
   color: var(--warm-cream);
   background:
     linear-gradient(rgba(34,34,34,.92), rgba(34,34,34,.92)),
