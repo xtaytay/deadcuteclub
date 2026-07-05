@@ -4,14 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dead Cute Club</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header class="site-header">
-    <a href="#home" class="brand-mark">Dead Cute Club</a>
+    <a href="#home" class="brand-logo">
+      <img src="assets/images/logo-primary.png" alt="Dead Cute Club">
+    </a>
+
     <nav>
       <a href="#morgue">The Morgue</a>
       <a href="#club">Join the Club</a>
@@ -21,64 +27,93 @@
 
   <main>
     <section id="home" class="hero">
-      <div class="sparkle sparkle-one">✦</div>
-      <div class="sparkle sparkle-two">✧</div>
-      <p class="tiny-note">Est. 2026</p>
-      <h1><span>Dead</span><span>Cute Club</span></h1>
-      <p class="strapline">Cute things for chaotic girls</p>
-      <div class="hero-statement">
-        <p>You’re not just buying a sticker.</p>
-        <p>You’re joining a club.</p>
+      <div class="hero-copy">
+        <p class="eyebrow">Est. 2026</p>
+
+        <h1>
+          <span>Dead</span>
+          <span>Cute Club</span>
+        </h1>
+
+        <p class="strapline">Cute things for chaotic girls</p>
+
+        <p class="hero-intro">
+          A cosy little corner of the internet for people who love cute things with a darker side.
+        </p>
+
+        <p class="hero-intro">
+          Join a community that celebrates bows, books, skulls and beautifully weird little obsessions.
+        </p>
+
+        <div class="buttons">
+          <a class="button primary" href="#club">Join the Club</a>
+          <a class="button secondary" href="https://instagram.com/_deadcuteclub" target="_blank">Instagram</a>
+        </div>
       </div>
-      <div class="buttons centered">
-        <a class="button primary" href="#club">Become a Club Member</a>
-        <a class="button secondary" href="https://instagram.com/_deadcuteclub" target="_blank">Instagram</a>
+
+      <div class="hero-mascot">
+        <img src="assets/images/founder.png" alt="Dead Cute Club founder mascot">
       </div>
     </section>
 
-    <section id="morgue" class="feature-card light-card">
-      <p class="eyebrow">Coming soon</p>
-      <h2>The Morgue Is Closed</h2>
-      <p>We’re putting the finishing touches on our very first sticker collection.</p>
-      <p>Follow our journey on Instagram and TikTok for sneak peeks, behind-the-scenes and launch updates.</p>
-      <p class="tagline">Cute. Creepy. Collectible.</p>
-      <p class="handwritten">Opening soon ♡</p>
+    <section id="morgue" class="cards">
+      <article class="card light-card">
+        <p class="eyebrow">Coming Soon</p>
+        <h2>The Morgue Is Closed</h2>
+        <p>We’re putting the finishing touches on our very first sticker collection.</p>
+        <p>Follow along for sneak peeks, behind-the-scenes and launch updates.</p>
+        <p class="tagline">Cute. Morbid. Collectible.</p>
+        <p class="handwritten">Opening soon ♡</p>
+      </article>
+
+      <article id="club" class="card dark-card">
+        <p class="eyebrow">Join the Club</p>
+        <h2>Become a Club Member</h2>
+        <p>Club members get first looks at new sticker drops, behind-the-scenes previews, launch updates and little dead cute surprises.</p>
+
+        <div class="club-perks">
+          <span>✦ Sneak peeks</span>
+          <span>♡ Launch updates</span>
+          <span>✧ Behind the scenes</span>
+        </div>
+
+        <a class="button primary" href="#socials">Join the Club</a>
+      </article>
+
+      <article id="socials" class="card pink-card">
+        <p class="eyebrow">Find Us</p>
+        <h2>Follow Along</h2>
+        <p class="social-handle">@_deadcuteclub</p>
+        <p>Follow the journey for launch updates, sticker sketches, packaging previews and tiny cute chaos.</p>
+
+        <div class="social-buttons">
+          <a class="button primary" href="https://instagram.com/_deadcuteclub" target="_blank">Instagram</a>
+          <a class="button secondary" href="https://www.tiktok.com/@_deadcuteclub" target="_blank">TikTok</a>
+        </div>
+      </article>
     </section>
 
-    <section id="club" class="feature-card dark-card">
-      <p class="eyebrow">Join the club</p>
-      <h2>Become a Dead Cute Club Member</h2>
-      <p>Club members get first looks at new sticker drops, behind-the-scenes previews, launch updates and little dead cute surprises.</p>
-      <div class="club-perks">
-        <span>✦ Sneak peeks</span>
-        <span>♡ Launch updates</span>
-        <span>✧ Behind the scenes</span>
+    <section class="story">
+      <div class="story-text">
+        <p class="eyebrow">The Story</p>
+        <h2>Built for people with a soft spot for spooky.</h2>
+        <p>
+          Dead Cute Club is a soft alternative sticker brand inspired by bows, skulls, books, cosy chaos and the little things people get emotionally attached to.
+        </p>
+        <p>
+          Every collection is designed to feel like something you would instantly say, “that’s literally me.”
+        </p>
       </div>
-      <a class="button primary" href="#socials">Join the Club</a>
-      <p class="social-note">Come and join the club on Instagram & TikTok.</p>
-    </section>
 
-    <section class="story-section">
-      <div>
-        <p class="eyebrow">The story</p>
-        <h2>Cute, spooky and a little bit chaotic.</h2>
-      </div>
-      <p>Dead Cute Club is a soft alternative sticker brand inspired by bows, skulls, books, cosy chaos and the little things people get emotionally attached to.</p>
-    </section>
-
-    <section id="socials" class="social-section">
-      <p class="eyebrow">Find us</p>
-      <h2>@_deadcuteclub</h2>
-      <p>Follow the journey for launch updates, sticker sketches, packaging previews and tiny cute chaos.</p>
-      <div class="social-buttons">
-        <a class="button primary" href="https://instagram.com/_deadcuteclub" target="_blank">Instagram</a>
-        <a class="button secondary" href="https://www.tiktok.com/@_deadcuteclub" target="_blank">TikTok</a>
+      <div class="story-note">
+        <img src="assets/images/founder.png" alt="Dead Cute Club mascot">
+        <p class="handwritten">Welcome to the club ♡</p>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>Be cute. Be chaotic. Welcome to the club. ♡</p>
+    <p class="handwritten">Be cute. Be chaotic. Welcome to the club. ♡</p>
     <p>© 2026 Dead Cute Club</p>
   </footer>
 </body>
