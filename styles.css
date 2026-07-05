@@ -157,6 +157,13 @@ h1 span {
   line-height: 1.75;
 }
 
+.hero-logo {
+  width: min(520px, 90vw);
+  height: auto;
+  margin: 0 auto 24px;
+  display: block;
+}
+
 .hero-mascot {
   display: flex;
   justify-content: center;
