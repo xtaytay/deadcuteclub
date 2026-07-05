@@ -206,9 +206,10 @@ h1 span {
   transition: transform .18s ease, box-shadow .18s ease;
 }
 
-.hero .button {
-  border-color: var(--dead-black);
-  box-shadow: 5px 5px 0 var(--dead-black);
+.hero .button,
+.dark-card .button {
+  border-color: var(--warm-cream);
+  box-shadow: 5px 5px 0 var(--warm-cream);
 }
 
 .button:hover {
