@@ -474,4 +474,46 @@ footer .handwritten {
   .social-handle {
     font-size: clamp(2rem, 10vw, 3rem) !important;
   }
+
+  /* final desktop tightening */
+.site-header {
+  padding: 8px clamp(22px, 5vw, 72px);
+  min-height: 90px;
+}
+
+.brand-logo img {
+  width: clamp(230px, 22vw, 340px);
+}
+
+.hero {
+  min-height: 62vh;
+  padding: 35px clamp(24px, 6vw, 90px) 55px;
+  gap: clamp(24px, 4vw, 55px);
+}
+
+.hero-logo {
+  max-width: 320px;
+  margin-bottom: 20px;
+}
+
+.hero-copy {
+  max-width: 620px;
+}
+
+.hero-mascot img {
+  max-width: 260px;
+}
+
+.strapline {
+  margin: 20px 0 18px;
+}
+
+.hero-intro {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin-top: 22px;
+}
+  
 }
